@@ -3,6 +3,19 @@
 #import "problems.typ" : contest_problems
 #import "typst-svg-emoji/lib.typ" : *
 
+#import "descriptions/A.typ": *
+#import "descriptions/B.typ": *
+#import "descriptions/C.typ": *
+#import "descriptions/D.typ": *
+#import "descriptions/E.typ": *
+#import "descriptions/F.typ": *
+#import "descriptions/G.typ": *
+#import "descriptions/H.typ": *
+#import "descriptions/I.typ": *
+#import "descriptions/J.typ": *
+#import "descriptions/K.typ": *
+#import "descriptions/L.typ": *
+
 #let mono(s, color: black) = {text(font: "Inconsolata", fill: color)[#s]}
 #let bf(s) = {text(weight: "bold")[#s]}
 
@@ -24,77 +37,18 @@
 
 #let descriptions = (
   // 2A
-    (
-        (
-            [- A],
-        ),
-    ),
-    
-    (
-        (
-            [- B],
-        ),
-    ),
-
-    (
-        (
-            [- C],
-        ),
-    ),
-    
-    (
-        (
-            [- D],
-        ),
-    ),
-    
-    (
-        (
-            [- E],
-        ),
-    ),
-    
-    (
-        (
-            [- F],
-        ),
-    ),
-    
-    (
-        (
-            [- G],
-        ),
-    ),
-    
-    (
-        (
-            [- H],
-        ),
-    ),
-    
-    (
-        (
-            [- I],
-        ),
-    ),
-    
-    (
-        (
-            [- J],
-        ),
-    ),
-    
-    (
-        (
-            [- K],
-        ),
-    ),
-
-    (
-        (
-            [- L],
-        ),
-    ),
+    A_desc.at(0),
+    B_desc.at(0),
+    C_desc.at(0),
+    D_desc.at(0),
+    E_desc.at(0),
+    F_desc.at(0),
+    G_desc.at(0),
+    H_desc.at(0),
+    I_desc.at(0),
+    J_desc.at(0),
+    K_desc.at(0),
+    L_desc.at(0),
 )
 
 
