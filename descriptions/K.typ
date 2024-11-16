@@ -16,8 +16,8 @@
             [- $1$부터 $N$까지의 수가 어느 그룹에 들어갈 지 결정한다면 경우의 수를 구할 수 있습니다.],
             [- 각 그룹은 오름차순 정렬되므로, 그룹 내의 순서는 고려하지 않아도 됩니다.],
             [- $
-                display(frac(N !, product_(i=1)^(K) [i "그룹의 항목 수"])!
-                = frac(N !, product_(i=1)^(N) floor(frac(i + K - 1, K)))!)
+                display(frac(N !, product_(i=1)^(K) [i "그룹의 항목 수"]!)
+                = frac(N !, product_(i=1)^(N) floor(frac(i + K - 1, K))))
             $]
         ),
     ),
