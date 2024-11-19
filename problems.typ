@@ -37,7 +37,7 @@
                 (("권순호", "yookwi"),), "binary_search",
                 (int(statistics.at("correct").at("I")), int(statistics.at("total").at("I"))), (statistics.at("fs").at("I").at("name"), statistics.at("fs").at("I").at("time"))),
 
-    ("J", "배열 만들기", "Normal", "g", 
+    ("J", "수열 만들기", "Normal", "g", 
                 (("권순호", "yookwi"),), "constructive, greedy", 
                 (int(statistics.at("correct").at("J")), int(statistics.at("total").at("J"))), (statistics.at("fs").at("J").at("name"), statistics.at("fs").at("J").at("time"))),
     
