@@ -1,21 +1,23 @@
 #let L_desc = (
     (
         (
-            [
-                #align(center, block[
-                    #image("../images/L_1.png", height: 35%)
+            place(center, dy: -90pt, 
+            align(center, block[
+                    #image("../images/L_1.png", height: 50%)
                 ])
-            ],
+            ),
+            linebreak(),linebreak(),linebreak(),
             [- 문제의 요구사항을 만족시키고, 어떤 도시에서도 모든 도시로 갈 수 있도록 도시를 설계하기 위해서는 원형으로 구성해야 합니다.],
             [- 모든 도시에 들어오는 도로가 단 한 개가 되고, 모든 노드가 연결되어 있으면 됩니다.],
             [- 도로의 목적지를 변경하는 것이 아니라, 도로를 끊고 다시 연결하는 방법으로 생각해 봅시다!],
         ),
         (
-            [
-                #align(center, block[
-                    #image("../images/L_2.png", height: 31%)
+            place(center, dy: -60pt, 
+            align(center, block[
+                    #image("../images/L_2.png", height: 40%)
                 ])
-            ],
+            ),
+            linebreak(),linebreak(),linebreak(),
             [- 그래프를 모두 직선 형태로 분리한다면 다시 연결했을 때, 원형으로 구성할 수 있습니다.],
             [- 따라서 그래프를 직선으로 만들 수 있는 최소 도로 제거 횟수를 구하면 정답을 구할 수 있습니다.],
             [- 예외적으로, 주어진 그래프가 이미 원형 그래프라면 도로를 분리하지 않는 것이 더 적은 횟수로 만들 수 있습니다. ($0$회)],
