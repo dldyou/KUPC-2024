@@ -9,7 +9,7 @@
 #let project(title: "", authors: (), logo: none, body) = {
   // Set the document's basic properties.
   set document(author: authors, title: title)
-  set page(numbering: "1", number-align: bottom + right, flipped: true, background: image("images/ku.png"))
+  set page(numbering: "1", number-align: bottom + right, flipped: true, background: image("images/background.png"))
   set text(font: "Pretendard", lang: "ko")
   
   v(10fr)
